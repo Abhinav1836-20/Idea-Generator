@@ -1,2 +1,4 @@
 # Idea-Generator
 This notebook sets up an AI-based idea generation tool. It installs necessary libraries like Transformers, Gradio, Torch, and Accelerate, then uses a text-to-text generation model (MBZUAI/LaMini-Flan-T5-783M) to create a Gradio interface for generating creative ideas or text outputs from user prompts.
+It begins by installing the necessary Python libraries such as Transformers, Gradio, Torch, and Accelerate.
+he project then imports the required modules and sets up a text-to-text generation pipeline using the MBZUAI/LaMini-Flan-T5-783M model from Hugging Face. This model is lightweight yet capable of understanding user prompts and generating meaningful, creative text outputs. Finally, a Gradio interface is implemented, allowing users to type prompts such as requests for business ideas, slogans, or creative suggestions—and instantly receive AI-generated responses.
